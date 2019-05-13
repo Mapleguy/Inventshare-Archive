@@ -9,8 +9,8 @@
     var poolID = 'us-east-1:69377d1c-380f-4cbb-8e6c-63f07b98a590';
     //Update AWS config
     AWS.config = new AWS.Config();
-    AWS.config.accessKeyId = "AKIAJKXUJC3OQQ26CPHQ";
-    AWS.config.secretAccessKey = "K7sphXFDK7uCi+ZkqRr45Zo8O6PLIY+5BK/IJ2X0";
+    AWS.config.accessKeyId = "REDACTED";
+    AWS.config.secretAccessKey = "REDACTED";
     $(document).ready(function()
     {
         editAvatar = 'false';
