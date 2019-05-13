@@ -1,0 +1,138 @@
+html, body
+{
+    position: relative;
+}
+
+.content
+{
+    min-width: 650px;
+    width: 65vw;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 42px;
+}
+
+.welcome
+{
+    width: 100%;
+    height: 3vw;
+    margin-top: -2px;
+    margin-bottom: -1.5vw;
+}
+
+.welcome #topline
+{
+    width: 100%;
+    height: 2px;
+    background-color: white;
+}
+
+.welcome #bottomline
+{
+    margin-top: 0vw;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+}
+
+.welcome #usercount
+{
+    width: 33.3%;
+    height: 100%;
+    margin-bottom: -3vw;
+    text-align: center;
+}
+
+.welcome #usercount text
+{
+    font-size: 1vw;
+    font-family: 'Sansation';
+}
+
+.welcome #sep1
+{
+    width: 1px;
+    height: 3vw;
+    margin-left: 33.3%;
+    background-color: gray;
+}
+
+.welcome #postcount
+{
+    width: 33.3%;
+    height: 100%;
+    margin-left: 33.3%;
+    margin-top: -3vw;
+    text-align: center;
+}
+
+.welcome #postcount text
+{
+    font-size: 1vw;
+    font-family: 'Sansation';
+}
+
+.welcome #sep2
+{
+    width: 1px;
+    height: 3vw;
+    margin-left: 66.6%;
+    margin-top: -3vw;;
+    background-color: gray;
+}
+
+.welcome #posttoday
+{
+    width: 33.3%;
+    height: 100%;
+    margin-left: 66.6%;
+    margin-top: -3vw;
+    text-align: center;
+}
+
+.welcome #posttoday text
+{
+    font-size: 1vw;
+    font-family: 'Sansation';
+}
+
+.leftline
+{  
+    position: fixed;
+    float: left;
+    width: 1px;
+    height: 100vh;
+    top: 0vh;
+    left: calc(17vw + 1px);
+    background-color: white;
+    opacity: 0;
+}
+.rightline
+{
+    position: fixed;
+    float: right;
+    width: 1px;
+    height: 100vh;
+    top: 0vh;
+    right: 17vw;
+    background-color: white;
+    opacity: 0;
+}
+
+.indexcat
+{
+    width: 100%;
+    min-height: 320px;
+    height: 32vw;
+    margin-top: 7vh;
+}
+
+.indexcat #title
+{
+    text-align: left;
+    margin-left: 2vw;
+    font-size: 2vw;
+    line-height: 3vw;
+    font-family: 'Sansation';
+}

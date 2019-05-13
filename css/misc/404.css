@@ -1,0 +1,28 @@
+.html, body
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.banner
+{
+    width: 65vw;
+    height: 25vw;
+    margin-left: 17.5vw;
+    margin-top: calc(1.5vw + 42px);
+    text-align: center;
+}
+
+.banner #title
+{
+    font-family: 'Sansation';
+    font-size: 3vw;
+    line-height: 4vw;
+}
+
+.banner #funtext
+{
+    font-family: 'Sansation';
+    font-size: 2vw;
+    line-height: 2.66vw;
+}

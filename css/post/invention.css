@@ -1,0 +1,367 @@
+html, body
+{
+    margin: 0px;
+}
+
+.content
+{
+    width: 65vw;
+    margin-left: 17.5vw;
+    margin-right: 17.5vw;
+    text-align: center;
+}
+
+.title
+{
+    margin-top: 42px;
+    height: 4vw;
+}
+
+.title #name
+{
+    font-family: 'Sansation';
+    font-size: 3vw;
+    color: black;
+}
+
+.title #desc
+{
+    font-family: 'Sansation';
+    font-size: 1.25vw;
+    color: black;
+}
+
+.imagepreview
+{
+    width: 100%;
+    height: 31vw;
+    margin-top: 1.5vw;
+    text-align: center;
+}
+
+.imagepreview #mainimage
+{
+    display: inline-block;
+    position: absolute;
+    width: 45vw;
+    height: 29vw;
+    margin-top: 1vw;
+    margin-left: -22.5vw;
+}
+
+.imagepreview #mainimage img:hover
+{
+    cursor: pointer;
+}
+
+.imagepreview #mainimage img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.prvleftbutton
+{
+    position: absolute;
+    width: 3vw;
+    height: 1.5vw;
+    left: 17.5vw;
+    top: calc(42px + 38vw);
+}
+
+.prvrightbutton
+{
+    position: absolute;
+    width: 3vw;
+    height: 1.5vw;
+    left: 79.5vw;
+    top: calc(42px + 38vw);
+}
+
+.prvrightbutton text, .prvleftbutton text
+{
+    font-family: 'Sansation';
+    font-size: 1.5vw;
+    line-height: 1.5vw;
+    color: black;
+}
+
+.prvleftbutton:hover, .prvrightbutton:hover
+{
+    cursor: pointer;
+}
+
+.prvnum
+{
+    position: absolute;
+    width: 4vw;
+    height: 1.2vw;
+    left: 48vw;
+    right: 48vw;
+    top: calc(42px + 38vw);
+    font-family: 'Sansation';
+    font-size: 1vw;
+}
+
+.info
+{
+    float: left;
+    width: 33%;
+    margin-top: 4vw;
+}
+
+.info text
+{
+    float: left;
+    margin-bottom: 1vw;
+    font-size: 1.8vw;
+    font-family: 'Sansation';
+}
+
+.info a
+{
+    color: black;
+}
+
+.summary
+{
+    float: right;
+    width: 66%;
+    margin-top: 4vw;
+}
+
+.summary p
+{
+    margin-top: 1vw;
+    font-size: 1.25vw;
+    font-family: 'Sansation';
+}
+
+.summary text
+{
+    font-size: 1.8vw;
+    font-family: 'Sansation';
+}
+
+
+
+.imagewindow
+{
+    position: fixed;
+    text-align: center;
+    width: 65vw;
+    height: 46vw;
+    margin-left: 17.5vw;
+    top: calc(42px + 1vw);
+    background-color: #2db950;
+    border: none;
+    border-radius: 0.25vw;
+    visibility: hidden;
+    z-index: 100;
+}
+
+.imagewindow #windowimg
+{
+    object-fit: contain;
+    width: 90%;
+    height: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: calc(5% - 1vw);
+}
+
+.imagewindow #windowexit
+{
+    position: absolute;
+    width: 1vw;
+    height: 1vw;
+    top: 1vw;
+    right: 1vw;
+}
+
+.imagewindow #windowexit text
+{
+    font-family: 'Sansation';
+    font-size: 1vw;
+    line-height: 1vw;
+    color: red;
+}
+
+.imagewindow #windowexit:hover
+{
+    cursor: pointer;
+}
+
+
+
+.editbutton
+{
+    width: 3vw;
+    height: 1vw;
+    position: absolute;
+    left: 79.5vw;
+    top: calc(42px + 4.5vw);
+    background-color: red;
+    text-align: center;
+}
+
+.editbutton:hover
+{
+    cursor: pointer;
+}
+
+.editbutton text
+{
+    font-family: 'Sansation';
+    color: black;
+    font-size: 1vw;
+    line-height: 1vw;
+}
+
+.editinput
+{
+    visibility: hidden;
+}
+
+.editinput #nameinput
+{
+    position: absolute;
+    left: 40vw;
+    top: calc(42px + 0.6vw);
+    width: 20vw;
+    height: 2.2vw;
+    font-size: 1vw;
+    line-height: 1.5vw;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 1.1vw;
+    padding-left: 0.55vw;
+    padding-right: 0.55vw;
+    font-family: 'Sansation';
+}
+
+.editinput #descinput
+{
+    position: absolute;
+    left: 35vw;
+    top: calc(42px + 3.3vw);
+    width: 30vw;
+    height: 1.5vw;
+    font-size: 1vw;
+    line-height: 1.5vw;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 0.75vw;
+    padding-left: 0.55vw;
+    padding-right: 0.55vw;
+    font-family: 'Sansation';
+}
+
+.editinput #catinput
+{
+    position: absolute;
+    left: 17.5vw;
+    top: 46.35vw;
+    width: 15vw;
+    height: 1.5vw;
+}
+
+.editinput #typeinput
+{
+    position: absolute;
+    left: 17.5vw;
+    top: 49.55vw;
+    width: 15vw;
+    height: 1.5vw;
+}
+
+.editinput #summinput
+{
+    position: absolute;
+    left: 39.5vw;
+    top: 46vw;
+    height: 12vw;
+    width: 43vw;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 0.75vw;
+    resize: none;
+    font-family: 'Sansation';
+    font-size: 1.25vw;
+    line-height: 1.5vw;
+    padding-left: 0.55vw;
+    padding-right: 0.55vw;
+}
+
+.imgmanager
+{
+    position: absolute;
+    left: 82.5vw;
+    top: calc(42px + 6.5vw);
+    width: 3vw;
+    height: 8vw;
+}
+
+.imgmanager #upload
+{
+    width: 100%;
+    height: 3vw;
+    margin-top: 0vw;
+}
+
+.imgmanager #delete
+{
+    width: 100%;
+    height: 3vw;
+    margin-top: 2vw;
+}
+
+.imgmanager #upload:hover, .imgmanager #delete:hover
+{
+    cursor: pointer;
+}
+
+.imgmanager #delconfirm
+{
+    position: absolute;
+    left: -37.5vw;
+    top: calc(42px + 10vw);
+    width: 10vw;
+    height: 10vw;
+    background-color: #2db950;
+    border: none;
+    border-radius: 0.25vw;
+    text-align: center;
+    visibility: hidden;
+}
+
+.imgmanager #t text, .imgmanager #b text
+{
+    font-family: 'Sansation';
+    font-size: 1vw;
+    line-height: 2.8vw;
+    color: white;
+}
+
+.imgmanager #b, .imgmanager #t
+{
+   width: 100%;
+   height: 2.8vw;
+   margin-top: 0.4vw;
+   background-color: #2db950;
+}
+
+.imgmanager #b:hover
+{
+    cursor: pointer;
+    background-color: #238f3f;
+}
+
+.imgmanager #invimages
+{
+    position: absolute;
+    left: 0vw;
+    top: 0vw;
+    visibility: hidden;
+}

@@ -1,0 +1,85 @@
+.postprev
+{
+    display: inline-block;
+    min-width: 200px;
+    width: 20vw;
+    min-height: 300px;
+    height: 30vw;
+    margin-left: 1vw;
+    line-height: 2vw;
+    border-style: solid;
+    border-width: 2px;
+    border-color: gray;
+}
+
+.postprev:hover
+{
+    cursor: pointer;
+    border-color: black;
+}
+
+.postprev #namebox
+{
+    min-width: 200px;
+    width: 20vw;
+    min-height: 20px;
+    height: 2vw;
+}
+
+.postprev #invname
+{
+    text-align: center;
+    font-size: 1.5vw;
+    line-height: 2vw;
+    text-decoration: none;
+    font-family: 'Sansation';
+}
+
+.postprev #descbox
+{
+    width: 100%;
+    min-height: 135px;
+    height: 13.5vw;
+}
+
+.postprev #desc
+{
+    text-align: left;
+    font-family: 'Sansation';
+    font-size: 1vw;
+    line-height: 2vw;
+}
+
+.postprev #cattype
+{
+    min-width: 200px;
+    width: 20vw;
+    min-height: 20px;
+    height: 2vw;
+}
+
+.postprev #cat
+{
+    width: auto;
+    text-align: left;
+    font-family: 'Sansation';
+    font-size: 1.25vw;
+    line-height: 2vw;
+}
+
+.postprev #type
+{
+    width: auto;
+    text-align: left;
+    font-family: 'Sansation';
+    font-size: 1.25vw;
+    line-height: 2vw;
+}
+
+.postprev #previmg
+{
+    width: 20vw;
+    height: 12.5vw;
+    object-fit: contain;
+    border-bottom: gray solid 2px;
+}

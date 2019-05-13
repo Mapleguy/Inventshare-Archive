@@ -1,0 +1,130 @@
+@font-face
+{
+    font-family: 'Code';
+    src: url('https://inventshare.co/css/fonts/Code.otf');
+}
+
+@font-face
+{
+    font-family: 'Sansation';
+    src: url('https://inventshare.co/css/fonts/Sansation.ttf');
+}
+
+.hcontent
+{
+    z-index: 100;
+    position: fixed;
+    height: 42px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    
+    text-align: center;
+    
+    background-color: #2db950;
+}
+
+.mask
+{
+    height: 42px;
+    min-width: 350px;
+    max-width: 60vw;
+    margin-left: auto;
+    margin-right: auto;
+    
+    text-align: center;
+}
+
+.hsearch
+{
+    float: right;
+    height: 42px;
+    min-width: 76px;
+    width: auto;
+    margin-top: -36px;
+    visibility: hidden;
+}
+
+.hsearch #searchfield
+{
+    float: right;
+    position: relative;
+    height: 26px;
+    min-width: 50px;
+    max-width: 7.55vw;
+    top: 8px;
+    bottom: 6px;
+    
+    display: inline-block;
+    vertical-align: middle;
+    
+    border: none;
+    border-radius: 2px;
+    outline: none;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    
+    font-family: 'Sansation';
+    font-size: 14px;
+}
+
+.hsearch #searchbutton
+{
+    float: right;
+    position: relative;
+    height: 26px;
+    width: 26px;
+    left: -5px;
+    margin-top: 8px;
+    
+    display: inline-block;
+    vertical-align: middle;
+    
+    border: none;
+    outline: none;
+}
+
+.hsearch #searchbutton:hover
+{
+    cursor: pointer;
+}
+
+.profilescut
+{
+    float: left;
+    width: 1.7vw;
+    height: 42px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.profilescut:hover
+{
+    cursor: pointer;
+}
+
+.profilescut #pcutimg
+{
+    margin-top: 6px;
+    clip-path: circle(15px at center);
+}
+
+.homebutton
+{
+    width: 2.3vw;
+    margin-left: 28.5vw;
+    text-align: center;
+}
+
+.homebutton:hover
+{
+    cursor: pointer;
+}
+
+.homebutton img
+{
+    width: 30px;
+    height: 30px;
+    margin-top: 6px;
+}

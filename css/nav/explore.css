@@ -1,0 +1,40 @@
+.explorecolumn
+{
+    position: fixed;
+    margin-top: calc(42px + 10vh);
+    left: 15vw;
+    width: 12vw;
+}
+
+.explorecolumn #title
+{
+    text-align: right;
+    font-family: 'Sansation';
+    font-size: 2.25vw;
+    line-height: 2.5vw;
+}
+
+.explorecolumn #div1
+{
+    width: 100%;
+    height: 2px;
+    background-color: black;
+}
+
+.explorecolumn #cats
+{
+    width: 100%;
+    text-align: right;
+    font-family: 'Sansation';
+    font-size: 1.5vw;
+}
+
+.explorecolumn #cats text
+{
+    line-height: 2vw;
+}
+
+.explorecolumn #cats text:hover
+{
+    cursor: pointer;
+}

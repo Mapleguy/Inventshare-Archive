@@ -1,0 +1,65 @@
+.navoptions
+{
+    position: fixed;
+    width: 13.3vw;
+    height: 16.48vw;
+    top: 48px;
+    
+    visibility: hidden;
+    
+    border: none;
+    border-radius: 0.25vw;
+    
+    background-color: #2db950;
+}
+
+.navoptions #navbutton, .navoptions #navlogin
+{
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 2.99vw;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0.255vw;
+}
+
+.navoptions #navlabel, .navoptions #loginlabel
+{
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Sansation';
+    font-size: 1.25vw;
+    color: white;
+}
+
+.navoptions #navbutton:hover, .navoptions #navlogin:hover
+{
+    background-color: #238f3f;
+    cursor: pointer;
+}
+
+.navoptions #navinput
+{
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 2.99vw;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0.255vw;
+}
+
+.navoptions #navun, .navoptions #navpass
+{
+    height: 1.35vw;
+    width: 95%;
+    margin-top: 0.825vw;
+    display: table-cell;
+    vertical-align: middle;
+    
+    font-family: 'Sansation';
+    font-size: 1.25vw;
+    
+    outline: none;
+}

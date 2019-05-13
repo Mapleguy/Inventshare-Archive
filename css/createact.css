@@ -1,0 +1,85 @@
+html, body
+{
+    margin: 0px;
+    height: 100%;
+}
+
+.content
+{
+    width: 25vw;
+    margin-left: 37.5vw;
+    margin-right: 37.5vw;
+    margin-top: 42px;
+    text-align: center;
+}
+
+.createform
+{
+    text-align: center;
+}
+
+.createform #fnameinput
+{
+    float: left;
+    width: 12vw;
+    margin-top: 1vw;
+    font-family: 'Sansation';
+}
+
+.createform #lnameinput
+{
+    float: right;
+    width: 12vw;
+    margin-top: 1vw;
+    font-family: 'Sansation';
+}
+
+.createform #actinputlong
+{
+    width: 25vw;
+    margin-top: 1vw;
+    font-family: 'Sansation';
+}
+
+.createform #dobyear, .createform #dobmonth, .createform #dobday
+{
+    margin-top: 1vw;
+    font-family: 'Sansation';
+}
+
+.termsagree
+{
+    margin-top: 2vw;
+    font-family: 'Sansation';
+}
+
+.privacyagree
+{
+    margin-top: 1vw;
+    font-family: 'Sansation';
+}
+
+.createform #submitbtn
+{
+    margin-top: 1vw;
+    width: 10vw;
+    height: 2vw;
+    border: none;
+    border-radius: 1vw;
+    background-color: red;
+    color: white;
+    font-size: 1vw;
+}
+
+.createform #submitbtn:hover
+{
+    cursor: pointer;
+}
+
+.infoerror
+{
+    font-family: 'Sansation';
+    color: red;
+    height: 0;
+    font-size: 0vw;
+}

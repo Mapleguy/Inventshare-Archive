@@ -1,0 +1,223 @@
+html, body
+{
+    margin: 0px;
+}
+
+.content
+{
+    width: 65%;
+    margin-left: 17.5%;
+    margin-right: 17.5%;
+    text-align: center;
+}
+
+.postinfo
+{
+    margin-top: calc(2vw + 42px);
+    text-align: center;
+}
+
+.postinfo #postlabel
+{
+    font-family: 'Sansation';
+    font-size: 1.1vw;
+}
+
+.postinfo #invname, .postinfo #invdesc
+{
+    width: 30vw;
+    margin-bottom: 1vw;   
+    font-family: 'Sansation';
+    font-size: 1vw;
+    border: 1px solid black;
+    border-radius: 0.75vw;
+    outline: none;
+    padding-left: 0.55vw;
+    padding-right: 0.55vw;
+}
+
+.postinfo #namehelper, .postinfo #deschelper, .postinfo #summhelper, .postinfo #imghelper
+{
+    font-family: 'Sansation';
+    font-size: 1vw;
+    color: #2db950;
+    padding-left: 0.5vw;
+}
+
+.postinfo #namehelper:hover, .postinfo #deschelper:hover, .postinfo #summhelper:hover, .postinfo #imghelper:hover
+{
+    cursor: help;
+}
+
+.postinfo #invsummary
+{
+    width: 30vw;
+    height: 15vw;
+    margin-bottom: 1vw;  
+    resize: none;
+    font-family: 'Sansation';
+    font-size: 1vw;  
+    border: 1px solid black;
+    border-radius: 0.75vw;
+    outline: none;
+    padding: 0.55vw;
+}
+
+.postinfo #imgcount
+{
+    font-family: 'Sansation';
+    font-size: 1vw;
+    line-height: 2vw;
+}
+
+.postinfo #imagesbutton
+{
+    width: 10vw;
+    height: 1.5vw;
+    background-color: #2db950;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 0.75vw;
+}
+
+.postinfo #imagesbutton:hover
+{
+    cursor: pointer;
+}
+
+.postinfo #imagesbutton:active
+{
+    background-color: #238f3f;
+}
+
+.postinfo #invtype, .postinfo #invcategory
+{
+    width: 10vw;
+    height: 1.25vw;
+    margin-bottom: 1vw;
+    border: none;
+    outline: 1px solid black;    
+    font-family: 'Sansation';
+}
+
+.postinfo #invpatent
+{
+    width: 10vw;   
+    border: none;
+    outline: 1px solid black;
+    margin-bottom: 1vw;
+}
+
+.postinfo #invterms
+{
+    margin-bottom: 1vw;
+}
+
+.postinfo #invtermstext
+{
+    font-family: 'Sansation';
+    font-size: 1vw;
+    line-height: 1.25vw;
+}
+
+.postinfo #submiterror
+{
+    font-family: 'Sansation';
+    font-size: 1vw;
+    line-height: 1vw;
+    visibility: hidden;
+    color: red;
+}
+
+.postinfo #postbutton
+{
+    width: 10vw;
+    height: 1.5vw;
+    background-color: #2db950;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 0.75vw;
+}
+
+.postinfo #postbutton:hover
+{
+    cursor: pointer;
+}
+.postinfo #postbutton:active
+{
+    background-color: #238f3f;
+}
+
+.postinfo #invimages
+{
+    position: absolute;
+    top: -5000px;
+    left: -5000px;
+}
+
+.namehelp, .deschelp, .summhelp, .imghelp, .cathelp, .typehelp, .pathelp
+{
+    display: table-cell;
+    position: absolute;
+    width: 15vw;
+    background-color: #2db950;
+    border: none;
+    border-radius: 0.25vw;
+}
+
+.namehelp
+{
+    visibility: hidden;
+    left: 55vw;
+    top: calc(42px + 2vw);
+}
+
+.deschelp
+{
+    visibility: hidden;
+    left: 56.5vw;
+    top: calc(42px + 7vw);
+}
+
+.summhelp
+{
+    visibility: hidden;
+    left: 56vw;
+    top: calc(42px + 12vw);
+}
+
+.imghelp
+{
+    visibility: hidden;
+    left: 55.5vw;
+    top: calc(42px + 30.5vw);
+}
+
+.cathelp
+{
+    visibility: hidden;
+    left: 56.5vw;
+    top: calc(42px + 36.5vw);
+}
+
+.typehelp
+{
+    visibility: hidden;
+    left: 55.5vw;
+    top: calc(42px + 40vw);
+}
+
+.pathelp
+{
+    visibility: hidden;
+    left: 62.5vw;
+    top: calc(42px + 43.5vw);
+}
+
+.namehelp p, .deschelp p, .summhelp p, .imghelp p, .cathelp p, .typehelp p, .pathelp p
+{
+    font-family: 'Sansation';
+    color: white;
+}
